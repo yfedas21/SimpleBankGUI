@@ -13,6 +13,11 @@ namespace SimpleBankGUI
         protected double balance { get; set; }
         protected List<Transaction> transactions { get; set; }
 
+        public Account()
+        {
+            // default constructor, no parameters
+        }
+
         public Account(Customer customer, int id)
         {
             this.customer = customer;
