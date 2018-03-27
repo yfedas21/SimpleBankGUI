@@ -31,5 +31,5 @@ namespace SimpleBankGUI
 
     class Account_Savings : Account {
         //implement interface here
-    }                                       
+    }
 }

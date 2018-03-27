@@ -21,5 +21,25 @@ namespace SimpleBankGUI
         {
             Application.Exit();
         }
+
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+            textBoxClear();
+        }
+
+        private void buttonSubmit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Name: " + textBoxName.Text + "\n\nAge: " + textBoxAge.Text + "\n\nAddress: " 
+                + textBoxAddress.Text + "\n\nTelephone Number: " + textBoxTelephoneNumber.Text);
+            textBoxClear();
+        }
+
+        public void textBoxClear()
+        {
+            textBoxName.Clear();
+            textBoxAge.Clear();
+            textBoxAddress.Clear();
+            textBoxTelephoneNumber.Clear();
+        }
     }
 }
