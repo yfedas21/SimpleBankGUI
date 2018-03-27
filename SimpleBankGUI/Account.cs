@@ -19,4 +19,12 @@ namespace SimpleBankGUI
             this.account_number = id;
         }
     }
+
+    class Account_Checking : Account {
+        
+    }
+
+    class Account_Savings : Account {
+        
+    }                                       
 }
