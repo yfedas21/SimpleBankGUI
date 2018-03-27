@@ -21,10 +21,10 @@ namespace SimpleBankGUI
     }
 
     class Account_Checking : Account {
-        
+        //implement interface here 
     }
 
     class Account_Savings : Account {
-        
+        //implement interface here
     }                                       
 }
